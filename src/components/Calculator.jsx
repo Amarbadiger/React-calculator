@@ -5,7 +5,7 @@ const Calculator = () => {
   const li = [7, 8, 9, "/", 4, 5, 6, "*", 1, 2, 3, "-", 0, ".", "=", "+"];
   const readNum = (e) => {
     if (e.target.innerText == "=") {
-      e.target.innerText = "";
+      //e.target.innerText = "";
       setvalue(eval(value));
     }
     setvalue((prev) => prev + e.target.innerText);
